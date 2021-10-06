@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [php travels test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="login(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.guru99.Testcases.TC_loginTest_001">
+        <methods>
+          <include name="logintest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.guru99.Testcases.TC_loginTest_001 -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [php travels test] -->
